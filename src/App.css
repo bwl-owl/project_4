@@ -1,0 +1,21 @@
+body {
+  background-image: url('https://www.aeccglobal.sg/images/2023/01/31/finance-course.webp');
+  background-size: 100% 100%; /* Scale the background image to fill the entire container */
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* Allows the background to scroll with the window's content */
+}
+
+.navbar {
+  position: fixed; /* Fixed positioning */
+  top: 0; /* Aligns to the top */
+  left: 0; /* Aligns to the left */
+  width: 100%; /* Full width */
+  background-color: #f0f0f0; /* Background color */
+  padding: 10px; /* Some padding for visual appeal */
+  z-index: 1000; /* Ensures that the navbar stays above other content */
+}
+
+/* Add some padding to the content so it doesn't overlap with the navbar */
+.content {
+  padding-top: 60px; /* Adjust as needed depending on the size of your navbar */
+}
