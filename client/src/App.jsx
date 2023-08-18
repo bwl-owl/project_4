@@ -6,7 +6,7 @@ function App() {
   const [data, setData] = useState();
 
   useEffect(() => {
-    axios.get("/test").then((response) => {
+    axios.get("https://p4-px0f.onrender.com/test").then((response) => {
       setData(response.data);
     }, []);
   });
